@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>To Do list</title>
+</head>
+<body class=" font-parkinsans">
+    <div class="w-full min-h-screen p-10 bg-[#141413]">
+        <div class="w-full max-w-[740px] bg-[#FAF9F5] mt-[100px] ml-auto mr-auto mb-[20px] pt-[40px] pr-[30px] pb-[70px] pl-[30px] rounded-[10px] ">
+            <h2 class="flex items-center mb-[20px] font-bold"  > To-Do List <img class="w-auto max-w-[50px] ml-[5px] " src="svgs/todo-list-svgrepo-com.svg" ></h2>
+            <div class="flex items-center justify-between bg-[#E8E6DC] rounded-[30px] pl-[20px] mb-[25px]">
+                <input type="text" class="flex-1 border-0 outline-none bg-transparent p-[10px]" id="input-box" placeholder="Add your text">
+                
+                <button onclick="addTask()" class="border-0 outline-none pt-[16px] pb-[10px] pl-[50px] pr-[50px] bg-[#D97757] text-[16px] cursor-pointer rounded-[40px]">Add</button>
+            </div>
+            
+            <ul class="list-none text-[17px] select-none cursor-pointer" id="list-container">
+                <!-- <li class="relative pl-[45px] py-[8px] before:content-[''] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:h-[28px] before:w-[28px] before:rounded-full before:bg-cover before:bg-center before:bg-[url('../svgs/icons8-circle-50.png')] [&.checked]:text-[#555] [&.checked]:line-through [&.checked]:before:bg-[url('../svgs/correct.png')]">Task 1</li>
+                <li class="relative pl-[45px] py-[8px] before:content-[''] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:h-[28px] before:w-[28px] before:rounded-full before:bg-cover before:bg-center before:bg-[url('../svgs/icons8-circle-50.png')] [&.checked]:text-[#555] [&.checked]:line-through [&.checked]:before:bg-[url('../svgs/correct.png')]">Task 2</li>
+                <li class="relative pl-[45px] py-[8px] before:content-[''] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:h-[28px] before:w-[28px] before:rounded-full before:bg-cover before:bg-center before:bg-[url('../svgs/icons8-circle-50.png')] [&.checked]:text-[#555] [&.checked]:line-through [&.checked]:before:bg-[url('../svgs/correct.png')]">Task 3</li> -->
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
